@@ -159,6 +159,6 @@ class Main extends Controller
 
     public function about()  
     {
-        echo "About";
+        return view('about');
     }
 }
