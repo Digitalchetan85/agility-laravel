@@ -2,9 +2,9 @@
 
 @section('content')
 <div id="about-us" class="bg-primary">
-    <Container>
-        <Row>
-            <Col md={12}>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
             <div class="pt-5 pb-5">
                 <h2 class="text-center text-white">About</h2>
                 <nav aria-label="breadcrumb">
@@ -20,9 +20,9 @@
                     </ol>
                 </nav>
             </div>
-            </Col>
-        </Row>
-    </Container>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -43,12 +43,12 @@
 </div>
 
 <div class="pt-3 pb-3 pt-md-5 pb-md-5">
-        <Container>
-          <Row class="justify-content-center">
-            <Col md={12}>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
               <div class="bg-white shadow p-3 m-1 rounded">
-                <Row>
-                  <Col md={6} class="align-self-center">
+                <div class="row">
+              <div class="col-md-6 align-self-center">
                     <div class="">
                       <h2 class="pb-2 text-center text-primary">
                         Nivarti Jayaram
@@ -56,7 +56,7 @@
                       <div class="text-center">
                         <img
                           class="rounded-circle img-fluid"
-                          src={jayaram}
+                          src="./assets/images/about/jayaram.png"
                           alt="jayaram"
                         />
                       </div>
@@ -65,8 +65,8 @@
                         & Mentor
                       </p>
                     </div>
-                    <Row class="pt-3 pb-3 pt-md-3 pb-md-3 justify-content-center text-center">
-                      <Col md={6}>
+                    <div class="row pt-3 pb-3 pt-md-3 pb-md-3 justify-content-center text-center">
+                      <div class="col-md-6">
                         <div class="ms-2">
                           <h6 class="text-primary">
                             <u>Contact details:</u>
@@ -86,7 +86,7 @@
                               href="nivarti638@gmail.com"
                               class="text-decoration-none text-dark"
                             >
-                              {" "}
+                             
                               nivarti638@gmail.com
                             </a>
                           </p>
@@ -100,35 +100,35 @@
                             </a>
                           </p>
                         </div>
-                      </Col>
-                      <Col md={4}>
+                      </div>
+                      <div class="col-md-4">
                         <div>
                           <h6 class="text-primary">
                             <u>Social Media:</u>
                           </h6>
-                          <a href="https://www.linkedin.com/in/nivartijayaram">
-                            {" "}
+                          <a class="text-decoration-none" href="https://www.linkedin.com/in/nivartijayaram">
+                         
                             <i class="fab fa-linkedin fs-3 text-primary mx-2"></i>
                           </a>
-                          <a href="https://www.youtube.com/nivartijayaram">
+                          <a class="text-decoration-none" href="https://www.youtube.com/nivartijayaram">
                             <i class="fab fa-youtube fs-3 text-danger mx-2"></i>
                           </a>
                         </div>
-                      </Col>
-                    </Row>
-                    <Row class="justified-content-center">
-                      <Col md={12}>
+                      </div>
+                    </div>
+                    <div class="row justified-content-center">
+                      <div class="col-md-12">
                         <div class="text-center">
                           <img
-                            src="/assets/images/about/jayarm-certifications.png"
+                            src="./assets/images/about/jayarm-certifications.png"
                             alt="Certifications"
                             class="img-fluid"
                           />
                         </div>
-                      </Col>
-                    </Row>
-                  </Col>
-                  <Col md={6}>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
                     <div class="">
                        <!-- <div class="ratio ratio-1x1">
                         <iframe
@@ -186,11 +186,11 @@
                         <li>Leadership Development</li>
                       </ul>
                     </div>
-                  </Col>
-                </Row>
+                  </div>
+                </div>
               </div>
-            </Col>
-            <Col md={4}>
+            </div>
+            <div class="col-md-4">
               <div class="bg-white shadow p-3 m-1 rounded">
                 <h2 class="pb-2 text-center text-primary">
                   K Nagamaheswari
@@ -198,7 +198,7 @@
                 <div class="text-center">
                   <img
                     class="rounded-circle img-fluid"
-                    src="/assets/images/about/nagamaheshwari.png"
+                    src="./assets/images/about/nagamaheshwari.png"
                     alt="maheshwari"
                   />
                 </div>
@@ -206,8 +206,8 @@
                   Founder <br /> &nbsp;
                 </p>
               </div>
-            </Col>
-            <Col md={4}>
+            </div>
+            <div class="col-md-4">
               <div class="bg-white shadow p-3 m-1 rounded">
                 <h2 class="pb-2 text-center text-primary">
                   Mahesh Varadharajan
@@ -215,7 +215,7 @@
                 <div class="text-center">
                   <img
                     class="rounded-circle img-fluid"
-                    src={Mahesh}
+                    src="./assets/images/about/mahesh.png"
                     alt="Mahesh"
                   />
                 </div>
@@ -223,11 +223,11 @@
                   SPCT Candidate, Enterprise Agile Coach, Speaker, Mentor
                 </p>
               </div>
-            </Col>
-            <Col md={12}>
+            </div>
+            <div class="col-md-12">
               <div class="bg-white shadow p-3 m-1 rounded">
-                <Row>
-                  <Col md={6} class="align-self-center">
+                <dic class="row">
+                  <div class="col-md-6 align-self-center">
                     <div class="">
                       <h2 class="pb-2 text-center text-primary">
                         Anu Ravi
@@ -235,7 +235,7 @@
                       <div class="text-center">
                         <img
                           class="rounded-circle img-fluid"
-                          src={anu}
+                          src="./assets/images/about/anu.png"
                           alt="Anu Ravi"
                         />
                       </div>
@@ -249,8 +249,8 @@
                       </h6>
                     </div>
 
-                    <Row class="pt-3 pb-3 pt-md-3 pb-md-3 justify-content-center text-center">
-                      <Col md={6}>
+                    <div class="row pt-3 pb-3 pt-md-3 pb-md-3 justify-content-center text-center">
+                      <div class="col-md-6">
                         <div class="ms-2">
                           <h6 class="text-primary">
                             <u>Contact details:</u>
@@ -270,52 +270,51 @@
                               href="anuravi625@gmail.com"
                               class="text-decoration-none text-dark"
                             >
-                              {" "}
                               anuravi625@gmail.com
                             </a>
                           </p>
                           <p class="mb-0">
-                            {/* <a
+                            <!-- <a
                               href="www.nivartijayaram.com"
                               class="text-decoration-none text-dark"
                             >
                               <i class="fa fa-globe text-primary"></i>
                               www.nivartijayaram.com
-                            </a> */}
+                            </a>  -->
                           </p>
                         </div>
-                      </Col>
-                      <Col md={4}>
+                      </div>
+                      <div class="col-md-4">
                         <div>
                           <h6 class="text-primary">
                             <u>Social Media:</u>
                           </h6>
-                          <a href="https://www.linkedin.com/in/nivartijayaram">
-                            {" "}
+                          <a class="text-decoration-none" href="https://www.linkedin.com/in/nivartijayaram">
+                        
                             <i class="fab fa-linkedin fs-3 text-primary mx-2"></i>
                           </a>
-                          <a href="https://www.youtube.com/nivartijayaram">
+                          <a class="text-decoration-none"  href="https://www.youtube.com/nivartijayaram">
                             <i class="fab fa-youtube fs-3 text-danger mx-2"></i>
                           </a>
                         </div>
-                      </Col>
-                    </Row>
-                    <Row class="justify-content-center">
-                      <Col md={12}>
+                      </div>
+                    </div>
+                    <div class="row justify-content-center">
+                      <div class="col-md-12">
                          <div class="text-center">
-                           <Image src={anuCertifications} alt="certifcations" class="img-fluid" />
+                           <img src="./assets/images/about/anu-certifications.png" alt="certifcations" class="img-fluid" />
                            </div>   
-                      </Col>
-                    </Row>
-                  </Col>
-                  <Col md={6}>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
                     <div class="">
-                      {/* <div class="ratio ratio-1x1">
+                     <!-- <div class="ratio ratio-1x1">
                         <iframe
                           src="https://designrr.page?id=156312&token=2621835926&type=FP&h=4433"
                           title="IC Agile FlipBook"
                         ></iframe>
-                      </div> */}
+                      </div> -->
                       <h4 class="text-primary">Personal Profile</h4>
                       <p>
                         "I believe every individual has immense talent and when
@@ -367,14 +366,14 @@
                         <li>Leadership Development</li>
                       </ul>
                     </div>
-                  </Col>
-                </Row>
+                  </div>
+                </div>
               </div>
-            </Col>
-            <Col md={12}>
+            </div>
+            <div class="col-md-12">
               <div class="bg-white shadow p-3 m-1 rounded">
-                <Row>
-                  <Col md={6} class="align-self-center">
+                <div class="row ">
+                  <div class="col-md-6 align-self-center"> 
                     <div class="">
                       <h2 class="pb-2 text-center text-primary">
                         Milind Kanbur
@@ -382,7 +381,7 @@
                       <div class="text-center">
                         <img
                           class="rounded-circle img-fluid"
-                          src={Miland}
+                          src="/assets/images/about/miland.png"
                           alt="Miland Kanbur"
                         />
                       </div>
@@ -391,22 +390,22 @@
                         PMO Awards
                       </p>
                     </div>
-                  </Col>
-                  <Col md={6}>
+                  </div>
+                  <div class="col-md-6">
                     <div class="">
-                      <div class="ratio ratio-1x1">
+                       <div class="ratio ratio-1x1">
                         <iframe
                           src="https://designrr.page?id=152361&token=1971138060&type=FP&h=4689"
                           title="IC Agile FlipBook"
                         ></iframe>
                       </div>
                     </div>
-                  </Col>
-                </Row>
+                  </div>
+                </div>
               </div>
-            </Col>
-          </Row>
-        </Container>
+            </div>
+          </div>
+        </div>
       </div>
 
 @stop
